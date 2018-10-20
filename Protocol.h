@@ -15,13 +15,21 @@
 #define CMD_FAN_FB 'F'
 
 #define CMD_SEAT 's'
+
 #define CMD_LEVEL_FB 'L'
+
+#define CMD_LED_COLOR 'e'
+#define CMD_LED_COLOR_FB 'E'
 
 // 3rd byte: modifier or index as char
 #define MOD_LEFT 'l'
 #define MOD_MIDDLE 'm'
 #define MOD_RIGHT 'r'
 #define MOD_NONE 'x'
+
+#define MOD_LED_DASHBOARD 'd'
+#define MOD_LED_FINS 'f'
+#define MOD_LED_CABLE_HOLDER 'c'
 
 #define CMD_FORWARD 'f'
 #define CMD_BACKWARD 'b'
