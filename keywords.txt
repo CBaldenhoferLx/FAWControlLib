@@ -1,0 +1,27 @@
+###########################################
+# Syntax Coloring Map For Shared Lib
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+#TaskManager	KEYWORD1
+
+###########################################	
+# Methods and Functions (KEYWORD2)
+###########################################
+
+#init	KEYWORD2
+
+###########################################
+# Constants (LITERAL1)
+
+LEVEL_COUNT LITERAL1
+
+FAN_SPEED_MAX LITERAL1
+FAN_SPEED_MIN LITERAL1
+
+MM_COUNT LITERAL1
+
+###########################################
