@@ -21,6 +21,9 @@
 #define CMD_LED_COLOR 'e'
 #define CMD_LED_COLOR_FB 'E'
 
+#define CMD_LED_BRIGHTNESS 'b'
+#define CMD_LED_BRIGHTNESS_FB 'B'
+
 // 3rd byte: modifier or index as char
 #define MOD_LEFT 'l'
 #define MOD_MIDDLE 'm'
@@ -42,6 +45,11 @@
 #define LOCATION_MOD_TO_INDEX(loc)        										\
 (                                       										\
   ((loc==MOD_LEFT)?0:(loc==MOD_MIDDLE)?1:(loc==MOD_RIGHT)?2:-1)					\
+)
+
+#define INDEX_TO_LED_MOD(index)        																		\
+(                                       																	\
+  ((index==0)?MOD_LED_DASHBOARD:(index==1)?MOD_LED_FINS:(index==2)?MOD_LED_CABLE_HOLDER:MOD_NONE)			\
 )
 
 // 4th param: (value as char)
