@@ -1,3 +1,4 @@
+#define SERIAL_SPEED 9600
 
 #define LEVEL_COUNT 3
 
