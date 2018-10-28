@@ -38,6 +38,9 @@
 #define MOD_LED_DASHBOARD 'd'
 #define MOD_LED_FINS 'f'
 #define MOD_LED_CABLE_HOLDER 'c'
+#define MOD_LED_HEADLIGHTS 'h'
+#define MOD_LED_HEADLIGHTS_AMB 'a'
+#define MOD_LED_MIDDLE_STRIP 'm'
 
 #define MOD_STOP 's'
 #define MOD_FORWARD 'f'
