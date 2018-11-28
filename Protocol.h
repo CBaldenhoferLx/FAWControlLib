@@ -58,6 +58,11 @@
 
 #define INDEX_TO_LED_MOD(index)        																		\
 (                                       																	\
+  ((index==0)?MOD_LED_DASHBOARD:(index==1)?MOD_LED_FINS:(index==2)?MOD_LED_CABLE_HOLDER:(index==3||index==4)?MOD_LED_HEADLIGHTS:(index==5)?MOD_LED_HEADLIGHTS_AMB:(index==6)?MOD_LED_MIDDLE_STRIP:MOD_ERROR)			\
+)
+
+#define FLOAT_INDEX_TO_LED_MOD(index)        																		\
+(                                       																	\
   ((index==0)?MOD_LED_DASHBOARD:(index==1)?MOD_LED_FINS:(index==2)?MOD_LED_CABLE_HOLDER:(index==3)?MOD_LED_HEADLIGHTS:(index==4)?MOD_LED_HEADLIGHTS_AMB:(index==5)?MOD_LED_MIDDLE_STRIP:MOD_ERROR)			\
 )
 
