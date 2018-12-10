@@ -27,6 +27,8 @@
 #define CMD_LED_BRIGHTNESS 'b'
 #define CMD_LED_BRIGHTNESS_FB 'B'
 
+#define CMD_RESTART 'r'
+
 // 3rd byte: modifier or index as char
 #define MOD_NONE 'x'
 #define MOD_ERROR 'e'

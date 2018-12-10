@@ -7,6 +7,7 @@
 
 #define MM_COUNT 3
 
+#define LED_FLOAT_STRIP_COUNT 6
 #define LED_STRIP_COUNT 8
 
 #define LED_COUNT_DASHBOARD 144
@@ -18,8 +19,9 @@
 #define LED_COUNT_HEADLIGHTS_AMB_LEFT 56
 #define LED_COUNT_HEADLIGHTS_AMB_RIGHT LED_COUNT_HEADLIGHTS_AMB_LEFT
 
-#define LED_DEFAULT_BRIGHTNESS 128
-#define LED_BRIGHTNESS_MAX 255
+#define LED_DEFAULT_BRIGHTNESS 4
+#define LED_BRIGHTNESS_OFF 0
+#define LED_BRIGHTNESS_MAX 9
 
 #define LED_BRIGHTNESS_DASHBOARD LED_DEFAULT_BRIGHTNESS
 #define LED_BRIGHTNESS_FINS LED_DEFAULT_BRIGHTNESS
@@ -32,8 +34,18 @@
 
 #define BLEND_OFF -1
 
-#define COLOR_COUNT 4
+#define COLOR_COUNT 10		// first one is reserved for default color
+
+#define LED_COLOR_DEFAULT 0
+
 #define LED_COLOR_0 CRGB::Red
-#define LED_COLOR_1 CRGB::DarkRed
+#define LED_COLOR_1 CRGB::DeepPink
 #define LED_COLOR_2 CRGB::Purple
-#define LED_COLOR_3 CRGB::White
+
+#define LED_COLOR_3 CRGB::RoyalBlue
+#define LED_COLOR_4 CRGB::DeepSkyBlue
+#define LED_COLOR_5 CRGB::LightGreen
+
+#define LED_COLOR_6 CRGB::Gold
+#define LED_COLOR_7 CRGB::Orange
+#define LED_COLOR_8 CRGB::GhostWhite
